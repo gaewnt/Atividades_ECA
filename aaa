@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+    float s, t, v;
+    scanf("%f",&t);
+    scanf("%f",&v);
+    s = t * v;
+    printf("%.2f km",s);
+}
