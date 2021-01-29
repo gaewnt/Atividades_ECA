@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+    float co, ca, h;
+    scanf("%f",&co);
+    scanf("%f",&ca);
+    h = sqrt ((co*co)+(ca*ca)) ;
+    printf("%.2f",h);
+}

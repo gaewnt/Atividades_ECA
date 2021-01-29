@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+   float a, v;
+  scanf("%f",&a);
+  v = a * a * a;
+  printf("%.2f",v);
+}

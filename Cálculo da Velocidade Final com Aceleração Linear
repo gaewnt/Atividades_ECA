@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+    float v0, a, t, vf;
+    scanf("%f",&v0);
+    scanf("%f",&a);
+    scanf("%f",&t);
+    vf = (v0 + (a * t));
+    printf("%.2f",vf);
+}

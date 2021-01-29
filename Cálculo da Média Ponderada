@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+  float v1, v2, v3, MP;
+  scanf("%f",&v1);
+  scanf("%f",&v2);
+  scanf("%f",&v3);
+  MP = (((v1 * 2) + (v2 * 5) + (v3 * 7)) / (2 + 5 + 7) );
+  printf("%.2f",MP);
+}

@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+   float vi, vd, vf;
+  scanf("%f",&vi);
+  vd = (vi * 23) / 100;
+  vf = vi - vd;
+  printf("%.2f",vf);
+}
